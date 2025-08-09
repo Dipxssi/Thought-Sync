@@ -1,0 +1,18 @@
+import type {Config} from 'tailwindcss'
+
+export default {
+  content : ['./index.html','./src/**/*.{js,ts,jsx,tsx}'],
+  theme : {
+    extend :{
+      colors : {
+        purple :{
+          300: '#e0e7fe',
+          400: '#a78bfa', 
+          500: '#3e38a7',
+          600: '#5046e4',
+        }
+      }
+    },
+  },
+  plugins : [],
+}satisfies Config
